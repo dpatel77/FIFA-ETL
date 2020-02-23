@@ -158,3 +158,13 @@ full outer join (
     ) b
 on a.nationality = b."Country"
 order by no_times_host asc
+
+-- Alap modified version
+select 
+p.nationality as country, 
+count(DISTINCT p.sofifa_id) as no_of_players_from_country,
+COALESCE((select count(country) from world_cup where country = p.nationality group by country),0) as no_times_host
+from players as p left outer join world_cup as wc
+on p.nationality = wc.country
+group by p.nationality, wc.country
+order by no_times_host desc
