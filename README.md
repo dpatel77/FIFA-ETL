@@ -2,12 +2,6 @@
 
 This document contains guidelines, requirements, and suggestions for Project 1.
 
-## Team Effort
-
-Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.
-
-Working in a group enables you to tackle more difficult problems than you'd be able to working alone. In other words, working in a group allows you to **work smart** and **dream big**. Take advantage of it!
-
 
 ## Data Cleanup & Analysis
 
