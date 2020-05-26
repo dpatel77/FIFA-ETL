@@ -1,10 +1,7 @@
 # FIFA World Cup ETL
 
 # Project Overview:
-Based on athlete data from the Olympic games between 1896-2014, we created a  machine learning model to predict who would win a medal in the RIO 2016 Olympic Games. 
-
-We are using Amazon Web Services S3 to host our Olympic athlete's dataset from Kaggle.
-
+In this project we are gathering, cleaning and loading FIFA World Cup data to be able to run SQL queries in an efficient way. This process allows the developers to accurate collect and clean data and for anyone in the organization to use the data and have it be standardized throughout all projects.
 
 # Project Contributors:
 
@@ -14,12 +11,8 @@ We are using Amazon Web Services S3 to host our Olympic athlete's dataset from K
 * Alap Raval
 
 # Tech Stack
-* Scikit-Learn library for creating ML model for our prediction.
-* Amazon AWS S3 to host our Olympic athlete's dataset from Kaggle.
-* Python Pandas and Matplotlib libraries for data manipulation and ploting.
-* HTML/CSS/Bootstrap for creating web page with our visualizations.
-* SandDance for visualizing athlete data correlations.
-
+* Pandas to collect and clean data
+* PostGreSQL to load and run queries against data
 
 # Data Source:
 https://www.kaggle.com/abecklas/fifa-world-cup/version/5#WorldCups.csv
