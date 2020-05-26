@@ -14,9 +14,6 @@ Before you start writing any code, remember that you only have one week to compl
 
 Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
 
-## Data Sources
-
-https://www.kaggle.com/abecklas/fifa-world-cup/version/5#WorldCups.csv
 
 ## Data Cleanup & Analysis
 
@@ -32,19 +29,6 @@ Once you have identified your datasets, perform ETL on the data. Make sure to pl
 
 You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
 
-## Project Report
-
-At the end of the week, your team will submit a Final Report that describes the following:
-
-* **E**xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
-
-* **T**ransform: what data cleaning or transformation was required.
-
-* **L**oad: the final database, tables/collections, and why this was chosen.
-
-Please upload the report to Github and submit a link to Bootcampspot.
-
-- - -
 
 # FIFA World Cup ETL
 
@@ -70,5 +54,4 @@ We are using Amazon Web Services S3 to host our Olympic athlete's dataset from K
 
 
 # Data Source:
-https://www.kaggle.com/pavanraj159/olympics-history-1896-2016/data
-https://abe-southside-final-project.s3.us-east-2.amazonaws.com/athlete_events.csv
+https://www.kaggle.com/abecklas/fifa-world-cup/version/5#WorldCups.csv
