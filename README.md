@@ -14,15 +14,9 @@ Before you start writing any code, remember that you only have one week to compl
 
 Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
 
-## Finding Data
+## Data Sources
 
-Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:
-
-* [data.world](https://data.world/)
-
-* [Kaggle](https://www.kaggle.com/)
-
-You can also use APIs or data scraped from the web. However, get approval from your instructor first. Again, there is only a week to complete this!
+https://www.kaggle.com/abecklas/fifa-world-cup/version/5#WorldCups.csv
 
 ## Data Cleanup & Analysis
 
@@ -52,6 +46,29 @@ Please upload the report to Github and submit a link to Bootcampspot.
 
 - - -
 
-### Copyright
+# FIFA World Cup ETL
 
-Coding Boot Camp © 2019. All Rights Reserved.
+# Project Overview:
+Based on athlete data from the Olympic games between 1896-2014, we created a  machine learning model to predict who would win a medal in the RIO 2016 Olympic Games. 
+
+We are using Amazon Web Services S3 to host our Olympic athlete's dataset from Kaggle.
+
+
+# Project Contributors:
+
+* Dharti Patel
+* Tanisha Blakely
+* Abe Jones
+* Alap Raval
+
+# Tech Stack
+* Scikit-Learn library for creating ML model for our prediction.
+* Amazon AWS S3 to host our Olympic athlete's dataset from Kaggle.
+* Python Pandas and Matplotlib libraries for data manipulation and ploting.
+* HTML/CSS/Bootstrap for creating web page with our visualizations.
+* SandDance for visualizing athlete data correlations.
+
+
+# Data Source:
+https://www.kaggle.com/pavanraj159/olympics-history-1896-2016/data
+https://abe-southside-final-project.s3.us-east-2.amazonaws.com/athlete_events.csv
