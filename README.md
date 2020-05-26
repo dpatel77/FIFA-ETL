@@ -16,3 +16,5 @@ In this project we are gathering, cleaning and loading FIFA World Cup data to be
 
 # Data Source:
 https://www.kaggle.com/abecklas/fifa-world-cup/version/5#WorldCups.csv
+https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset#players_20.csv 
+https://en.wikipedia.org/wiki/FIFA_Club_World_Cup
